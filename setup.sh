@@ -35,9 +35,11 @@ systemctl disable multipathd.service
 
 systemctl disable NetworkManager-wait-online.service
 
-ssh-keygen -A
-
 systemctl disable systemd-modules-load.service
+
+systemctl set-default multi-user.target
+
+ssh-keygen -A
 
 cat << EOF > /etc/systemd/network/10-eth0.network
 [Match]
@@ -52,8 +54,6 @@ DHCP=no
 [DHCP]
 UseDNS=false
 EOF
-
-systemctl set-default multi-user.target
 
 apt autoremove
 
