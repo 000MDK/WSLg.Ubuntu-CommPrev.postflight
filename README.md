@@ -37,6 +37,8 @@ https://github.com/vinceliuice/Fluent-gtk-theme
 
 https://github.com/vinceliuice/Fluent-icon-theme
 
+https://github.com/vinceliuice/Fluent-kde
+
 add the line
 
 ```
