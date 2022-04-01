@@ -13,7 +13,7 @@ see
 - https://github.com/microsoft/wslg
 - https://aka.ms/wslstorepage
 
-set default-version to 2
+  set default-version to 2
 
 4. Ubuntu-CommPrev (store)
 - https://www.microsoft.com/store/apps/9P9Q5ZH1HRR0
