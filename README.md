@@ -1,4 +1,5 @@
 # WSLg.Ubuntu-CommPrev.postflight
+
 postflight script for a working systemd-genie environment with WSLg and Ubuntu-CommPrev
 
 quick-n-dirty, needs lot of improvement and all yet to be tested.
@@ -19,10 +20,16 @@ see
 - https://www.microsoft.com/store/apps/9P9Q5ZH1HRR0
 
 Run Ubuntu Community Preview
-set language, create user - do not enable GUI-support in advanced options!
+
+-> set language, create user - do not enable GUI-support in advanced options!
+
+
 
 All set? Run setup.cmd and report issues here.
 
+
+
+extra info:
 Window decorations I recommend (not working for X11 yet):
 
 https://github.com/vinceliuice/Fluent-gtk-theme
