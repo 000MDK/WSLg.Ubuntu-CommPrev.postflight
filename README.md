@@ -12,6 +12,7 @@ Requirements:
 see
 - https://github.com/microsoft/wslg
 - https://aka.ms/wslstorepage
+
 set default-version to 2
 
 4. Ubuntu-CommPrev (store)
