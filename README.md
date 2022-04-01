@@ -37,9 +37,13 @@ https://github.com/vinceliuice/Fluent-gtk-theme
 
 https://github.com/vinceliuice/Fluent-icon-theme
 
-add `export GTK-THEME=Fluent-round-dark` and
+add 
 
-    `export GDK_BACKEND=wayland`
+```
+export GTK-THEME=Fluent-round-dark
+
+export GDK_BACKEND=wayland
+```
     
 to /etc/bash.bashrc and use `gnome-tweaks` to set your theme/icons/cursor
 
