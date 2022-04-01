@@ -19,20 +19,22 @@ see
 4. Ubuntu-CommPrev (store)
 - https://www.microsoft.com/store/apps/9P9Q5ZH1HRR0
 
-Run Ubuntu Community Preview
+Now, first run Ubuntu Community Preview
 
 -> set language, create user - do not enable GUI-support in advanced options!
 
-
+------------------------
 
 All set? Run setup.cmd and report issues here.
 
-
+------------------------
 
 extra info:
+
 Window decorations I recommend (not working for X11 yet):
 
 https://github.com/vinceliuice/Fluent-gtk-theme
+
 https://github.com/vinceliuice/Fluent-icon-theme
 
 add `export GTK-THEME=Fluent-round-dark` and
