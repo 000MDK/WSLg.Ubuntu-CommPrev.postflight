@@ -6,9 +6,9 @@ apt upgrade -y
 
 apt dist-upgrade
 
-locale-gen en_EN.UTF-8
+locale-gen en_US.UTF-8
 
-update-locale LANG=en_EN.UTF-8
+update-locale LANG=en_US.UTF-8
 
 wget -O /etc/apt/trusted.gpg.d/wsl-transdebian.gpg https://arkane-systems.github.io/wsl-transdebian/apt/wsl-transdebian.gpg
 
