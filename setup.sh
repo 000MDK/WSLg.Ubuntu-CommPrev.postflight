@@ -33,6 +33,8 @@ touch /etc/cloud/cloud-init.disabled
 
 systemctl disable multipathd.service
 
+systemctl disable NetworkManager-wait-online.service
+
 ssh-keygen -A
 
 systemctl disable systemd-modules-load.service
