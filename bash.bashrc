@@ -103,7 +103,11 @@ if test -S $wsl_mount_root/wslg/.X11-unix/X0; then
 fi
 
 export PULSE_SERVER=unix:$(sed 's/unix://g' <<< "$PULSE_SERVER")
+export GDK_BACKEND=wayland
 
 dbus-launch --exit-with-session &>/dev/null
 
 genie -s 2>/dev/null
+
+#experimental - uncomment/change the following line if you want another theme
+#export GTK-THEME=HighContrastInverse
