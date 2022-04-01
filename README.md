@@ -31,7 +31,7 @@ All set? Run setup.cmd and report issues here.
 
 extra info:
 
-Window decorations I recommend (not working for X11 yet):
+window decorations I recommend (not working for X11 yet):
 
 https://github.com/vinceliuice/Fluent-gtk-theme
 
@@ -43,8 +43,8 @@ add the line
 export GTK-THEME=Fluent-round-dark
 ```
     
-to /etc/bash.bashrc and use `gnome-tweaks` to set your theme/icons/cursor
+to /etc/bash.bashrc and use `gnome-tweaks` to set your theme/icons/cursor to Fluent-round(-dark)
 
-(or uncomment/change the last line `#export GTK-THEME=HighContrastInverse`)
+(or just uncomment the last line `#export GTK-THEME=HighContrastInverse` for a simple dark theme)
 
 run firefox with `C:\Windows\System32\wslg.exe ~ -d Ubuntu-CommPrev MOZ_ENABLE_WAYLAND=1 firefox`
