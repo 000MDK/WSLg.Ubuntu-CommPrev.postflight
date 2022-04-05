@@ -2,7 +2,7 @@
 
 postflight script for a working systemd-genie environment with WSLg and Ubuntu-CommPrev
 
-quick-n-dirty, needs lot of improvement and all yet to be tested. Edit: bugs found and fixed, see new release. Tested and seems to be working fine.
+quick-n-dirty, needs lot of improvement. Edit: bugs found and fixed, see new release. Tested and seems to be working fine.
 
 change locale in setup.sh to your liking, default is en_US.UTF8
 
@@ -15,17 +15,19 @@ see
 - https://aka.ms/wslstorepage
 
   set default-version to 2
+  
+  (`wsl.exe --set-default-version 2`)
 
 4. Ubuntu-CommPrev (store)
 - https://www.microsoft.com/store/apps/9P9Q5ZH1HRR0
 
-Now, first run Ubuntu Community Preview
+  Now, first run Ubuntu Community Preview
 
 -> set language, create user - do not enable GUI-support in advanced options!
 
 5. make sure you can access WSL from explorer:
 
-i.e. [WIN]+[R]: `explorer.exe \\wsl.localhost\Ubuntu-CommPrev\`
+  i.e. [WIN]+[R]: `explorer.exe \\wsl.localhost\Ubuntu-CommPrev\`
 
 ------------------------
 
