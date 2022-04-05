@@ -23,6 +23,10 @@ Now, first run Ubuntu Community Preview
 
 -> set language, create user - do not enable GUI-support in advanced options!
 
+5. make sure you can access WSL from explorer:
+
+i.e. [WIN]+[R]: `explorer.exe \\wsl.localhost\Ubuntu-CommPrev\`
+
 ------------------------
 
 All set? Change locale in setup.sh if needed, run setup.cmd and report issues here, if any.
