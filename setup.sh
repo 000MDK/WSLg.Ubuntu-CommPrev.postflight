@@ -4,11 +4,11 @@ apt update
 
 apt upgrade -y
 
-apt dist-upgrade
+apt dist-upgrade -y
 
-locale-gen en_US.UTF-8
+locale-gen de_DE.UTF-8
 
-update-locale LANG=en_US.UTF-8
+update-locale LANG=de_DE.UTF-8
 
 wget -O /etc/apt/trusted.gpg.d/wsl-transdebian.gpg https://arkane-systems.github.io/wsl-transdebian/apt/wsl-transdebian.gpg
 
@@ -21,7 +21,7 @@ EOF
 
 apt update
 
-apt install update-manager-core pulseaudio-dummy xwayland-dummy
+apt install -y update-manager-core pulseaudio-dummy xwayland-dummy
 
 apt install -y systemd-genie
 
@@ -55,16 +55,20 @@ DHCP=no
 UseDNS=false
 EOF
 
-apt autoremove
+apt autoremove -y
 
+rm -f /etc/bash.bashrc
 cp /tmp/bash.bashrc /etc/bash.bashrc
 chmod 440 /etc/bash.bashrc
+rm -f /etc/sudoers
 cp /tmp/sudoers /etc/sudoers
 chmod 440 /etc/sudoers
-rm /etc/fstab
+rm -f /etc/fstab
 touch /etc/fstab
 chmod 644 /etc/fstab
+rm -f /etc/fonts/fonts.conf
 cp /tmp/fonts.conf /etc/fonts/fonts.conf
 chmod 644 /etc/fonts/fonts.conf
+rm -f /usr/lib/systemd/system/systemd-sysusers.service
 cp /tmp/systemd-sysusers.service /usr/lib/systemd/system/systemd-sysusers.service
 chmod 644 /usr/lib/systemd/system/systemd-sysusers.service
