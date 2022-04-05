@@ -59,7 +59,7 @@ apt autoremove -y
 
 rm -f /etc/bash.bashrc
 cp /tmp/bash.bashrc /etc/bash.bashrc
-chmod 440 /etc/bash.bashrc
+chmod 555 /etc/bash.bashrc
 rm -f /etc/sudoers
 cp /tmp/sudoers /etc/sudoers
 chmod 440 /etc/sudoers
