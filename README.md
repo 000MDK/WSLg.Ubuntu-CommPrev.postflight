@@ -2,7 +2,7 @@
 
 postflight script for a working systemd-genie environment with WSLg and Ubuntu-CommPrev
 
-quick-n-dirty, needs lot of improvement and all yet to be tested.
+quick-n-dirty, needs lot of improvement and all yet to be tested. Edit: bugs found and fixed, see new release. Tested and seems to be working fine.
 
 change locale in setup.sh to your liking, default is en_US.UTF8
 
@@ -25,7 +25,7 @@ Now, first run Ubuntu Community Preview
 
 ------------------------
 
-All set? Run setup.cmd and report issues here.
+All set? Change locale in setup.sh if needed, run setup.cmd and report issues here, if any.
 
 ------------------------
 
