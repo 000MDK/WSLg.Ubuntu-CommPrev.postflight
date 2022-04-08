@@ -48,11 +48,11 @@ https://github.com/vinceliuice/Fluent-kde
 add the line
 
 ```
-export GTK-THEME=Fluent-round-dark
+export GTK_HEME=Fluent-round-dark
 ```
     
 to /etc/bash.bashrc and use `gnome-tweaks` to set your theme/icons/cursor to Fluent-round(-dark)
 
-(or just uncomment the last line `#export GTK-THEME=HighContrastInverse` for a simple dark theme)
+(or just uncomment the last line `#export GTK_THEME=HighContrastInverse` for a simple dark theme)
 
 run firefox with `C:\Windows\System32\wslg.exe ~ -d Ubuntu-CommPrev MOZ_ENABLE_WAYLAND=1 firefox`
