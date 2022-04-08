@@ -110,4 +110,4 @@ dbus-launch --exit-with-session &>/dev/null
 genie -s 2>/dev/null
 
 #experimental - uncomment/change the following line if you want another theme
-#export GTK-THEME=HighContrastInverse
+#export GTK_THEME=HighContrastInverse
