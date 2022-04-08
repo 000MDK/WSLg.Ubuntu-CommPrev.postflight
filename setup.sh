@@ -37,6 +37,8 @@ systemctl disable NetworkManager-wait-online.service
 
 systemctl disable systemd-modules-load.service
 
+systemctl disable NetworkManager-wait-online.service
+
 systemctl set-default multi-user.target
 
 ssh-keygen -A
