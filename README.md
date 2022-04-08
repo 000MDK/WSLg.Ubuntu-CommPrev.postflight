@@ -45,14 +45,29 @@ https://github.com/vinceliuice/Fluent-icon-theme
 
 https://github.com/vinceliuice/Fluent-kde
 
+install with
+
+```
+git clone https://github.com/vinceliuice/Fluent-gtk-theme.git
+git clone https://github.com/vinceliuice/Fluent-icon-theme.git
+sudo ./Fluent-gtk-theme/install.sh
+sudo ./Fluent-icon-theme/install.sh
+```
+
 add the line
 
 ```
 export GTK_HEME=Fluent-round-dark
 ```
     
-to /etc/bash.bashrc and use `gnome-tweaks` to set your theme/icons/cursor to Fluent-round(-dark)
+to /etc/bash.bashrc and use `gnome-tweaks`/`lxappearance` to set your theme/icons/cursor to Fluent-round(-dark)
 
 (or just uncomment the last line `#export GTK_THEME=HighContrastInverse` for a simple dark theme)
 
-run firefox with `C:\Windows\System32\wslg.exe ~ -d Ubuntu-CommPrev MOZ_ENABLE_WAYLAND=1 firefox`
+Wayland apps will use it.
+
+Example:
+
+install firefox: `sudo apt install firefox libegl1-mesa`
+
+run `firefox`: `C:\Windows\System32\wslg.exe ~ -d Ubuntu-CommPrev MOZ_ENABLE_WAYLAND=1 firefox`
