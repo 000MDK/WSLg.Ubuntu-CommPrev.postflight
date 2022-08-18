@@ -1,16 +1,17 @@
 # WSLg.Ubuntu-CommPrev.postflight
 
-postflight script for a working systemd-genie environment with WSLg and Ubuntu-CommPrev
+## postflight script for a working systemd-genie environment with WSLg and Ubuntu-CommPrev
 
-quick-n-dirty, needs lot of improvement. Edit: bugs found and fixed, see new release. Tested and seems to be working fine.
+quick-n-dirty
 
-edit 08/2022 stopped working, "team is investigation"
-
-change locale in setup.sh to your liking, default is en_US.UTF8
+### edit 08/2022 stopped working, "team is investigation" & "when it's done"
 
 ------------------------
 
-Requirements:
+### INFO: change locale in setup.sh to your liking, default is en_US.UTF8
+
+## Requirements:
+
 1. WSL2 + WSLg supported system (HyperV + 10 insider/11 release + WDDM 3.0 driver)
 
 2. WSL preview (store) / WSLg (github)
@@ -29,17 +30,19 @@ see
 
 -> set language, create user - do not enable GUI-support in advanced options!
 
-5. make sure you can access WSL from explorer:
+5. `sudo do-release-upgrade ` - Hirsute is EOL, so first you have to upgrade the release
+
+6. make sure you can access WSL from explorer:
 
   i.e. [WIN]+[R]: `explorer.exe \\wsl.localhost\Ubuntu-CommPrev\`
 
 ------------------------
 
-All set? Change locale in setup.sh if needed, run setup.cmd and report issues here, if any.
+### All set? Change locale in setup.sh if needed, run setup.cmd and report issues here, if any.
 
 ------------------------
 
-extra info:
+## extra infos:
 
 window decorations I recommend (not working for X11 yet):
 
