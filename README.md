@@ -4,7 +4,11 @@ postflight script for a working systemd-genie environment with WSLg and Ubuntu-C
 
 quick-n-dirty, needs lot of improvement. Edit: bugs found and fixed, see new release. Tested and seems to be working fine.
 
+edit 08/2022 stopped working, "team is investigation"
+
 change locale in setup.sh to your liking, default is en_US.UTF8
+
+------------------------
 
 Requirements:
 1. WSL2 + WSLg supported system (HyperV + 10 insider/11 release + WDDM 3.0 driver)
