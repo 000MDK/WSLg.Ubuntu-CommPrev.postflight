@@ -27,21 +27,21 @@ apt install -y update-manager-core pulseaudio-dummy xwayland-dummy
 
 #apt install -y systemd-genie
 
-systemctl disable apparmor.service
+#systemctl disable apparmor.service
 
-systemctl disable auditd.service
+#systemctl disable auditd.service
 
-touch /etc/cloud/cloud-init.disabled
+#touch /etc/cloud/cloud-init.disabled
 
-systemctl disable multipathd.service
+#systemctl disable multipathd.service
 
-systemctl disable NetworkManager-wait-online.service
+#systemctl disable NetworkManager-wait-online.service
 
-systemctl disable systemd-modules-load.service
+#systemctl disable systemd-modules-load.service
 
-systemctl disable NetworkManager-wait-online.service
+#systemctl disable NetworkManager-wait-online.service
 
-systemctl set-default multi-user.target
+#systemctl set-default multi-user.target
 
 ssh-keygen -A
 
@@ -61,18 +61,18 @@ EOF
 
 apt autoremove -y
 
-rm -f /etc/bash.bashrc
-cp /tmp/bash.bashrc /etc/bash.bashrc
-chmod 555 /etc/bash.bashrc
-rm -f /etc/sudoers
-cp /tmp/sudoers /etc/sudoers
-chmod 440 /etc/sudoers
-rm -f /etc/fstab
-touch /etc/fstab
-chmod 644 /etc/fstab
-rm -f /etc/fonts/fonts.conf
-cp /tmp/fonts.conf /etc/fonts/fonts.conf
-chmod 644 /etc/fonts/fonts.conf
-rm -f /usr/lib/systemd/system/systemd-sysusers.service
-cp /tmp/systemd-sysusers.service /usr/lib/systemd/system/systemd-sysusers.service
-chmod 644 /usr/lib/systemd/system/systemd-sysusers.service
+#rm -f /etc/bash.bashrc
+#cp /tmp/bash.bashrc /etc/bash.bashrc
+#chmod 555 /etc/bash.bashrc
+#rm -f /etc/sudoers
+#cp /tmp/sudoers /etc/sudoers
+#chmod 440 /etc/sudoers
+#rm -f /etc/fstab
+#touch /etc/fstab
+#chmod 644 /etc/fstab
+#rm -f /etc/fonts/fonts.conf
+#cp /tmp/fonts.conf /etc/fonts/fonts.conf
+#chmod 644 /etc/fonts/fonts.conf
+#rm -f /usr/lib/systemd/system/systemd-sysusers.service
+#cp /tmp/systemd-sysusers.service /usr/lib/systemd/system/systemd-sysusers.service
+#chmod 644 /usr/lib/systemd/system/systemd-sysusers.service
