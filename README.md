@@ -1,6 +1,6 @@
 # WSLg.Ubuntu-CommPrev.postflight
 
-## postflight script for a working systemd-genie environment with WSLg and Ubuntu-CommPrev
+## postflight script for a working systemd-genie environment with WSLg and updated Ubuntu-CommPrev
 
 quick-n-dirty
 
@@ -10,7 +10,7 @@ quick-n-dirty
 
 so it seems that over the course of the latest updates this configuration for systemd genie stopped working and now just stalls and get's stuck.
 
-fixes incoming
+integrated release-upgrade; disabled/commented out systemd genie related code until it's fixed
 
 ------------------------
 
@@ -36,9 +36,7 @@ see
 
 -> set language, create user - do not enable GUI-support in advanced options!
 
-5. `sudo do-release-upgrade ` - Hirsute is EOL, so first you have to upgrade the release
-
-6. make sure you can access WSL from explorer:
+5. make sure you can access WSL from explorer:
 
   i.e. [WIN]+[R]: `explorer.exe \\wsl.localhost\Ubuntu-CommPrev\`
 
