@@ -6,7 +6,7 @@ apt upgrade -y
 
 apt dist-upgrade -y
 
-sudo do-release-upgrade -y
+sudo do-release-upgrade
 
 locale-gen en_US.UTF-8
 
