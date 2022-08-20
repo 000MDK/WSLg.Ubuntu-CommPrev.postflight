@@ -4,7 +4,13 @@
 
 quick-n-dirty
 
+2do: slow-n-pretty
+
 ### edit 08/2022 stopped working, "team is investigation" & "when it's done"
+
+so it seems that over the course of the latest updates this configuration for systemd genie stopped working and now just stalls and get's stuck.
+
+fixes incoming
 
 ------------------------
 
