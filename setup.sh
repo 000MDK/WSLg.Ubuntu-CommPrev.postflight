@@ -6,6 +6,8 @@ apt upgrade -y
 
 apt dist-upgrade -y
 
+sudo do-release-upgrade -y
+
 locale-gen en_US.UTF-8
 
 update-locale LANG=en_US.UTF-8
@@ -23,7 +25,7 @@ apt update
 
 apt install -y update-manager-core pulseaudio-dummy xwayland-dummy
 
-apt install -y systemd-genie
+#apt install -y systemd-genie
 
 systemctl disable apparmor.service
 
